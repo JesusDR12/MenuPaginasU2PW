@@ -1,0 +1,58 @@
+body {
+            font-family: Arial, sans-serif;
+            background-image: url("../imagen/hc.jpg");
+            text-align: center;
+            padding-top: 50px;
+        }
+        h1 {
+            font-size: 36px; 
+            color: darkred;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        #pie {
+            clear: both;
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #999999;
+        }
+        .button {
+            display: inline-block;
+            background-color: lightcoral;
+            border: none;
+            color: green;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s; /* Transición suave de color de fondo */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+
+        .button:hover {
+            background-color: cyan; /* Cambia el color de fondo al pasar el cursor */
+            transform: translateY(-3px); /* Mueve ligeramente el botón hacia arriba */
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al pasar el cursor */
+        }
+
+        .button:active {
+            background-color: #367a37; /* Cambia el color de fondo al hacer clic */
+            transform: translateY(1px); /* Mueve ligeramente el botón hacia abajo */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce la sombra al hacer clic */
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .button-container {
+            margin: 20px;
+        }
